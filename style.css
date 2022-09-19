@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia", sans-serif;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-content: space-evenly;
+  place-items: center;
+  background-color: rgb(24, 23, 23);
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  width: 1470px;
+  height: 100px;
+  padding: 4px;
+}
+
+.color-gradient {
+  /* background: linear-gradient(
+    100deg,
+    #5335cf 0%,
+    #bef53e 25%,
+    #f6cd48 50%,
+    #4b98f0 75%,
+    #5935e9 90%
+  );
+  background-size: 400%; */
+  background-color: #7424d6;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* animation: animate 15s linear infinite; */
+}
+
+.btn-color-gradient {
+  /* background: linear-gradient(
+    100deg,
+    #5335cf 0%,
+    #bef53e 25%,
+    #f6cd48 50%,
+    #4b98f0 75%,
+    #5935e9 90%
+  );
+  background-size: 400%;
+  animation: animate 15s linear infinite; */
+  background-color: #7424d6;
+  align-content: center;
+  padding: 0.3rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+/* @keyframes animate {
+  100% {
+    background-position: 400%;
+  }
+} */
+
+.settings {
+  place-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.settings .fa-cog {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.settings-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.settings-content input {
+  padding: 0.1rem 0.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.input-container {
+  display: flex;
+  padding-top: 2%;
+  gap: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.DisplayTittle {
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.time-container {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.time-container div {
+  font-size: 4rem;
+}
