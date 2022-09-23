@@ -1,4 +1,4 @@
-# The-Time-You-Have-Been-Survive-Till-Now.
+# The Time You Have Been Survive Till Now.
 This Project Shows You How Longer Time You Have Been Survive Till Now In This World.
 
 # output
